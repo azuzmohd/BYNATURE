@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'Sequel 100 Wide 95';
+    src: url('assets/fonts/sequel-100-black-95-webfont.woff2') format('woff2'),
+         url('assets/fonts/sequel-100-black-95-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sequel 100 Wide 95'
+}
+
+nav{
+    background: #000000;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: palevioletred;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+}
+
+nav ul{
+
+    float: right;
+    margin-right: 100px;
+
+}
+nav ul li {
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+nav ul li a{
+
+    color: palevioletred;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+
+.checkbtn{
+
+    font-size: 30px;
+    color: palevioletred;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check{
+
+    display: none;
+}
+@media (max-width:1500px){
+
+    label.logo{
+
+        font-size: 15px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width:1107px){
+
+    .checkbtn{
+        display: block;
+    }
+    ul{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background: #fe6b41;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+        
+    }   
+    nav ul li{
+
+        display: block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 30px;
+        color: #000000;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+
+}
+
+section{
+    background: #000000;
+}
+
+.zek{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 30px;
+    
+}
+.text{
+    font-family: 'Sequel 100 Wide 95';
+    font-size: 270px;
+    color:palevioletred;
+    line-height: 320px;
+    text-align: center;
+    
+    
+}
+
+
+.space{
+
+    font-size: larger;
+    padding: 50px;
+}
+@media (max-width:1107px){
+    .text{
+        font-size: 100px;
+    }
+}
+@media (max-width:500px){
+    .text{
+        font-size: 50px;
+
+    }
+    .space{
+
+        display: none;
+    }
+}
+.pt-2{
+
+    background: #f4f2ea;
+}
+.heading{
+    text-align: center;
+    color: #360a05;
+    line-height: 300px;
+    font-size: 100px;
+}
+.p1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color:	#54927d;
+}
+.MORE{
+    font-family:'Sequel 100 Wide 95' ;
+    border-radius: 40px;
+    font-size: 1.8rem;
+    margin: 9rem 0;
+    padding: 2rem 3rem;
+    background: #fe6b41;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 100%;
+    color: black;
+   
+}
+
+.MORE:hover{
+    color: #d87093;
+    background: #fe6b41;
+    transition: .5s;
+}
+.bynpic{
+    width: 100%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pt-3{
+    background: #f4f2ea;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.text2{
+    text-align: center;
+    font-size: 145px;
+    color: #360a05;
+    text-transform: uppercase;
+}
+.pt-4{
+    background: #f4f2ea;
+}
+.topoff{
+
+    text-align: center;
+    font-size: 85px;
+    color: #360a05;
+    margin: 4rem 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    background: #fe6b41;
+    overflow:hidden ;
+    
+}
+.qwerty{
+
+    font-size: 20px;
+    -webkit-text-stroke-width:0.1px;
+    -webkit-text-stroke-color:#feabda;
+    color: #feabda;
+    white-space:nowrap ;
+    padding: 2rem ;
+    letter-spacing: 1px;
+    animation: move-rtl 6000ms linear infinite;
+
+}
+
+@keyframes move-rtl{
+
+    0%{
+        transform: translateX(0);
+
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.pt-5{
+
+    background: #000000;
+}
+
+.founder{
+    color: #f4f2ea;
+    padding: 40px;
+    text-align: center;
+    font-size: 150px;
+
+}
+.p2{
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color:	whitesmoke;
+    padding: 10px;
+}
+
+.pic3{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width:50% ;
+    height: 50%;
+    
+
+}
+.text3{
+
+    text-align: center;
+    font-size: 60px;
+    background: #f4f2ea;
+    color: #360a05;
+    text-transform: uppercase; 
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.addy{
+
+    color: palevioletred;
+    font-size: 15px;
+
+}
+
+.pt-7{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+    
+}
+footer{
+    background: #360a05;
+}
+.footercontainer{
+
+        width: 100%;
+        padding: 70px 30px 20px;
+
+}
+
+.social-icons{
+
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+      
+    text-decoration: none;
+    padding: 15px;
+    background: #360a05;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.social-icons a i{
+     
+     font-size: 2.2em;
+     color:#9F2B68;
+     opacity: 0,9;
+
+}
+.social-icons a:hover i{
+
+    color: #f4f2ea;
+    transition: 0.5s;
+}
+.footnav{
+    margin: 30px 0;
+}
+.footnav ul{
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footnav ul li a{
+
+    color: #9F2B68;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.6em;
+    transition: 0.5s;
+}
+.footnav ul li a:hover{
+    color: #f4f2ea;
+    transition: 0.5s;
+}
+.footbtm{
+    background: #fe6b41;
+    padding: 10px;
+}
+.footnav2 ul{
+
+    float: right;
+    display: none;
+
+}
+.footnav2 ul li {
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:700px){
+
+    .footnav ul{
+        display: none;
+    }
+}
+@media (max-width:1107px){
+
+    .founder{
+
+        font-size: 55px
+    }
+    .text3{
+        font-size: 40px;
+    }
+    .text2{
+        font-size: 32px;
+        padding: 40px;
+    }
+    .topoff{
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    .heading{
+        font-size: 60px;
+    }
+}
+
+
+
