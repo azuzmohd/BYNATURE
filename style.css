@@ -399,21 +399,21 @@ footer{
 
     .founder{
 
-        font-size: 55px
+        font-size: 35px
     }
     .text3{
-        font-size: 40px;
+        font-size: 30px;
     }
     .text2{
-        font-size: 32px;
+        font-size: 22px;
         padding: 40px;
     }
     .topoff{
-        font-size: 40px;
+        font-size: 25px;
         padding-bottom: 50px;
     }
     .heading{
-        font-size: 60px;
+        font-size: 30px;
     }
 }
 @media only screen and (max-width:2480px){
